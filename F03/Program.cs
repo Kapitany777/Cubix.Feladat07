@@ -1,9 +1,9 @@
-﻿using F03.Library;
+﻿using F02.Library;
 using System;
 using System.Data;
 using System.Reflection;
 
-namespace F03
+namespace F02
 {
     internal class Program
     {
@@ -12,7 +12,7 @@ namespace F03
             var libTypes = typeof(ILeirhato)
                 .Assembly
                 .GetTypes()
-                .Where(t => t.Namespace == "F03.Library")
+                .Where(t => t.Namespace == "F02.Library")
                 .OrderBy(t => t.Name);
 
             foreach (var libType in libTypes)

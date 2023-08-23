@@ -13,7 +13,7 @@ namespace F01
         public string Vezeteknev { get; set; }
 
         public string Keresztnev { get; set; }
-        
+
         public override string ToString()
         {
             return $"{Id} {Vezeteknev} {Keresztnev}";

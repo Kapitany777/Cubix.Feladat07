@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F03.Library
+namespace F02.Library
 {
     /// <summary>
     /// A játék egy szereplője
